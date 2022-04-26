@@ -9,22 +9,25 @@
 </head>
 <body>
   <section class="wrapper">
-    <div class="form container"></div>
+    <div class="form-container"></div>
       <h1>Register</h1>
-      <h2>Create your account. It's free and only takes a minute.</h2>
-       <form class="form"action="./test">
-         <input type="text" placeholder="first name" autofocus>
-         <input type="text" placeholder="last name">
+      <p>Create your account. It's free and only takes a minute.</p>
+      <form class="form" action="./test">
+         <div class="name">
+         <input class="name-first" type="text" placeholder="first name" autofocus>
+         <input class="name-last" type="text" placeholder="last name">
+        </div>
          <input type="text" placeholder="email" required/>
          <input type="password" placeholder="password" name="" id="" required/>
          <input type="password" placeholder="confirm password" name="" id="">
-         <input type="checkbox" name="accept" id="accept" required/>
-            <label for="accept">I accept the <a href="http://text" target="_blank" rel="noopener noreferrer"></a> Teams of Use& <a href="http://text" target="_blank" rel="noopener noreferrer"></a> Privacy Policy</a></label>
-         <input type="submit" value="Register Now">
+         <input class="privacy" type="checkbox" name="accept" id="accept" required/>
+         <label for="accept">I accept the <a href="http://text" target="_blank" rel="noopener noreferrer">Teams of Use</a> & <a href="http://text" target="_blank" rel="noopener noreferrer"> Privacy Policy</a></label>
+         <input class="submit" type="submit" value="Register Now">
        </form>
-       <p>Alredy have in account? <a href="./form">Sign in</a> </p>
+       
     </div>
   </section>
+  <p class="sign">Alredy have in account? <a href="./form">Sign in</a> </p>
   
 </body>
 </html>

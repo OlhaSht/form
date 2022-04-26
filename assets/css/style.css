@@ -1,9 +1,85 @@
-.form{
-  display: flex;
-  flex-direction: column;
-  max-width: 300px;
-  padding: 1em;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+body {
+
+margin-top: 100px;
+
+background-color: rgb(109, 131, 194);
 
 }
+.wrapper {
+
+  width: 400px;
+  height: 500px;
+
+  margin: auto;
+  
+  border-radius: 5px;
+
+  background-color:rgb(238, 236, 241);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: ;
+  color: rgb(116, 112, 112);
+  
+  
+}
+.form-container {
+ padding: 10px;
+  
+}
+h1,
+p {
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+p {
+ font-size: 13px;
+ 
+}
+.form {
+  width: 300px;
+
+  display: flex;
+  flex-direction: column;
+
+  margin: auto;
+  padding-top: 20px;
+
+  font-size: 16px;
+  
+}
+.name {
+  
+  display: inline-flex;
+  justify-content: space-between;
+  
+}
+.name-first,
+.name-last {
+  width: 40%;
+
+}
+input{
+  margin-bottom: 15px;
+  padding: 5px ;
+}
+
+.form .submit {
+  margin-top: 50px;
+  background-color: rgb(4, 180, 4);
+  color:azure;
+}
+.form a {
+  text-decoration: none;
+  color: rgb(4, 180, 4);
+}
+.sign {
+  font-size: 18px;
+  color:azure;
+
+}
+.sign a {
+  color: azure;
+}
+
+
+
