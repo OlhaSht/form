@@ -16,15 +16,13 @@ background-color: rgb(109, 131, 194);
 
   background-color:rgb(238, 236, 241);
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-style: ;
+  font-style: normal ;
   color: rgb(116, 112, 112);
-  
-  
 }
 .form-container {
- padding: 10px;
-  
+ padding: 5px;
 }
+
 h1,
 p {
   margin-bottom: 0px;
@@ -32,23 +30,27 @@ p {
 }
 
 p {
- font-size: 13px;
+ font-size: 15px;
  
 }
 .form {
-  width: 300px;
+  width: 350px;
 
   display: flex;
   flex-direction: column;
 
   margin: auto;
-  padding-top: 20px;
+  padding-top: 30px;
 
   font-size: 16px;
   
 }
+.form>* {
+  font-size: 14px;
+  text-transform: capitalize;
+
+}
 .name {
-  
   display: inline-flex;
   justify-content: space-between;
   
@@ -56,12 +58,15 @@ p {
 .name-first,
 .name-last {
   width: 40%;
+  font-size: 14px;
+  text-transform: capitalize;
 
 }
 input{
   margin-bottom: 15px;
-  padding: 5px ;
+  padding: 7px ;
 }
+
 
 .form .submit {
   margin-top: 50px;
